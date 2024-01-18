@@ -1,0 +1,55 @@
+.logo {
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.author {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  text-decoration: underline;
+  color: var(--body-color);
+  transition: all 1s ease;
+}
+.author:hover {
+ font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+  gap: 5rem;
+}
+
+.containerCardLinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cardLink {
+  min-width: 300px;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: var(--card-link-default);
+  transition: all 0.5s ease;
+}
+
+.cardLink a {
+  font-weight: bold;
+  transform: translateY(50%);
+  color: black;
+}
+
+.cardLink:hover {
+  background: #90E0EF;
+}
